@@ -2,7 +2,7 @@
 Tracking Device for LoraWAN
 
 # wiring
-this tracker uses SoftwareSerial to communicate to UART GPS devices. Change conhfig.h to your needs
+this tracker uses SoftwareSerial to communicate to UART GPS devices. Change config.h to your needs
 
 # Usage
 Edit devices.h to match your tracking devices
