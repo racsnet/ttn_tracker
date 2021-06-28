@@ -68,7 +68,7 @@ void setup() {
   LMIC_reset();
   LMIC_setLinkCheckMode(0);
   LMIC_setAdrMode(0);
-  LMIC_setClockError(MAX_CLOCK_ERROR * 1 / 100);
+  LMIC_setClockError(MAX_CLOCK_ERROR * LORA_CKOCK_ERR / 100);
   do_send(&sendjob);
 }
 

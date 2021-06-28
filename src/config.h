@@ -1,6 +1,8 @@
 #define TRACKER01
 //#define UART_DEBUG
 
+#define LORA_CKOCK_ERR      2
+
 #define INDICATE_LED        10
 
 #define DOWNLINK_CFG        0x01
