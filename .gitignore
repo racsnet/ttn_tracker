@@ -51,10 +51,9 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# privacy
-devices.h
-
 # PIO Stuf
 .platformio.ini
 .pio
 .vscode
+
+src/devices.h
